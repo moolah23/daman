@@ -1,32 +1,28 @@
 {
-  "name": "CTK WARRIOR",
-  "version": "0.1.0",
-  "description": "A simple discord bot",
-  "main": "MusicBot.js",
+  "//1": "describes your app and its dependencies",
+  "//2": "https://docs.npmjs.com/files/package.json",
+  "//3": "updating this file will download and update your packages",
+  "name": "hello-express",
+  "version": "0.0.1",
+  "description": "A simple Node app built on Express, instantly up and running.",
+  "main": "server.js",
   "scripts": {
-    "start": "node MusicBot.js"
+    "start": "node server.js"
   },
-  "keywords": [
-    "discord",
-    "bot",
-    "discordbot"
-  ],
-  "author": "Its me",
-  "license": "MIT",
   "dependencies": {
     "discord.js": "^11.5.1",
-    "opusscript": "^0.0.7",
-    "simple-youtube-api": "^5.2.1",
-    "ytdl-core": "^0.29.7"
+    "express": "^4.16.4"
   },
-  "devDependencies": {
-    "eslint": "^4.0.0",
-    "eslint-config-aqua": "^1.0.0"
+  "engines": {
+    "node": "8.x"
   },
-  "eslintConfig": {
-    "extends": "aqua",
-    "rules": {
-      "no-console": 0
-    }
-  }
+  "repository": {
+    "url": "https://glitch.com/edit/#!/hello-express"
+  },
+  "license": "MIT",
+  "keywords": [
+    "node",
+    "glitch",
+    "express"
+  ]
 }
